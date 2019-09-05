@@ -29,6 +29,10 @@ const routes: Routes = [
     path:'cart',
     component: CartComponent
   },
+  {
+    path:'users',
+    loadChildren: './users/users.module#UsersModule'
+  },
 ];
 
 
